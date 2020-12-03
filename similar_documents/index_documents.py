@@ -1,9 +1,7 @@
-from haystack import Finder
 
 from haystack.retriever.dense import EmbeddingRetriever
-from haystack.utils import print_answers
 import pandas as pd
-import requests
+
 
 from haystack.document_store.elasticsearch import ElasticsearchDocumentStore
 
@@ -34,6 +32,8 @@ df = df.rename(columns={"answer": "text"})
 docs_to_index = df.to_dict(orient="records")
 document_store.write_documents(docs_to_index)
 
-finder = Finder(reader=None, retriever=retriever)
-prediction = finder.get_answers_via_similar_questions(question="I need a developer license for a test instance. How do I get one?", top_k_retriever=10)
-print_answers(prediction, details="all")
+# docs_to_indexfinder = Finder(reader=None, retriever=retriever)
+# prediction = finder.get_answers_via_similar_questions(question="I need a developer license for a test instance. How do I get one?", top_k_retriever=10)
+# print_answers(prediction, details="all")
+
+print("Indexing completed")
