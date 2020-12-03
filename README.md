@@ -12,4 +12,4 @@ cd similar_documents
 python index_documents.py
 
 #start api server
-gunicorn rest_api.application:app -b 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker -t 300
+gunicorn rest_api.application:app -b 0.0.0.0:80 -k uvicorn.workers.UvicornWorker -t 300
