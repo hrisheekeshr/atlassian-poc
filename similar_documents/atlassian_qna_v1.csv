@@ -1,0 +1,49 @@
+﻿Question,answer,Article,Division
+My license has expired/I don't have license. Will I receive support?,"No. The support engineers will always need a SEN number to provide assistance on the case (even if the license is an Evaluation). If your license has expired, please open a renewal request with the Sales Team. Once the renewal procedure is confirmed, you will already be eligible for support.",,Support
+My issue has been confirmed as a bug/improvement request. What will happen now?,"Atlassian works with two major systems. The Support channel and the Bug/New Features/Improvements channel.Support channel where the  Support Engineers from Atlassian handle all of the problems regarding to usage, environment problems and questions about the Atlassian products.Once the support confirms that one specific problem or need is confirmed as a bug or if it needs code customisation, tool redesign or implementation of new functionalities to the tool, the problem/doubt is reported in this system. ",,Support
+I need a developer license for a test instance. How do I get one?,"Every license (besides the Evaluation and Starter licenses) is eligible to generate a developer/test license. If you browse to your my.atlassian.com account, you will see the option to generate a developer license (which is completely free of additional costs).",,Support
+ I'm demanding a call from the support. Will I receive it?,"Inbound phone assistance is reserved for Premier/Priority customers. You can surely request an outbound phone call for further assistance, but please be sure that you have already provided everything which was request by the support team (i.e logs, screenshots, descriptions, etc.). From our experience, this makes our investigation process faster and there is also the possibility of resolving the problem through the ticket before the call.",,Support
+What about third party systems/plugins? Are these supported?,"Atlassian products interface with a variety of technologies. Front-end solutions like Web Servers (eg Apache HTTP Server), load balancers, single sign-on solutions, SSL certificates and LDAP repositories add functionality that is often critical to functioning of our products. Atlassian will endeavour to provide documentation for integration with these 3rd party applications but does not provide support for 3rd party applications. We are unable to provide support when a failure in a 3rd party application occurs.
+
+Atlassian offers support for certain third party plugins as listed in our supported plugins list. For unsupported plugins, issues should be raised with the provider of the plugin. Each plugin's supported status is listed on its page in the Atlassian Marketplace.",https://marketplace.atlassian.com/,Support
+What is a customisation?,"A customisation is generally a modification of the original product code, a template modification, or the addition of custom HTML/CSS. As stated in question 7, the support team does not provide assistance in developing a customisation, nor how to implement it or how to fix it.",,
+What is the purpose of the Escalation button?,"The ""Escalate"" button is meant to be used when you believe your issue is not receiving enough attention (due to a breached SLA, critical impact on business, escalation of the impact of original issue, eg you reported an existing problem and the system is now down, etc).",,Support
+"
+How is the software distributed?
+","
+Server (self-managed) products are available via HTTP download. Cloud products can be accessed anywhere with an internet connection, using your unique cloud URL. ",,Purchase-licensing
+"After I purchase a server license, do I need to reinstall the software?
+",There is no need to reinstall your software. Your existing installation can be updated by copying your purchased license key into the Versions & Licenses page of your product's administration console.,,Purchase-licensing
+"What training solutions are available?
+","Atlassian offers instructor-led training courses for Jira, Confluence and Dev Tools. Each course is delivered in our virtual classroom (via WebEx) either privately or publicly. See our Training page for further details.",,Purchase-licensing
+"Does Atlassian offer any discounts?
+","Our cloud plans start free and grow with you as your team scales. Our Standard and Premium cloud plans can be trialed for free at any time.
+
+Special pricing is available to registered charitable non-profits, academic institutions, government organizations, and certified Atlassian Partners. See Academic Institutions below to learn more about our Academic discounts. 
+
+Those interested in migrating from an existing server installation to cloud or Data Center may be eligible for our cloud loyalty discounts or our Data Center loyalty discounts.",https://www.atlassian.com/licensing/purchase-licensing#pricing-discounts https://www.atlassian.com/licensing/cloud-loyalty-discounts https://www.atlassian.com/licensing/data-center-loyalty-discounts,Purchase-licensing
+"Do governmental entities receive special pricing?
+","Special pricing is offered to United States Federal, State, and Local governmental entities through Atlassian's Government Aggregator, Carahsoft.
+
+You can contact Carahsoft at atlassian@carahsoft.com or visit http://www.carahsoft.com/atlassian.
+
+All other International governmental entities purchasing Atlassian software, are required to purchase commercial licenses.",,Purchase-licensing
+"How do I purchase Atlassian products?
+","All orders are placed via the secure online Quote & Order Form. Once your quote has been created, you'll receive a copy via email. If credit card details are not provided through the secure online form, the quote can be paid by mailed check, ACH (US customers), direct bank transfer, PayPal, or Net-30 payment terms (for orders above $10,000).",,Purchase-licensing
+What disaster recovery (DR) functionality does Data Center provide that a single server environment doesn't?,"Data Center products support high availability, along with other product-specific disaster recovery and failover features not available in Server versions.",https://confluence.atlassian.com/enterprise/disaster-recovery-guide-for-jira-692782022.html  https://confluence.atlassian.com/enterprise/disaster-recovery-for-atlassian-data-center-892801335.html,Data Center
+Can we upgrade Data Center without downtime?,We introduced zero downtime upgrades (ZDU) from Jira 7.3 onwards. You'll need to upgrade to this version to take advantage of this functionality.,https://confluence.atlassian.com/adminjiraserver/managing-zero-downtime-upgrades-938846953.html,Data Center
+Is there a maximum supported limit of nodes?,"We recommend a minimum of 2 nodes to enable hot failover. And keep in mind that more nodes doesn't necessarily mean better performance. We've seen clusters with three nodes perform well in many enterprise-scale customer environments. We've also seen instances with five or more nodes struggle to keep up with lighter loads. Start testing your load with one node, then gradually scale until you get acceptable performance.",https://confluence.atlassian.com/enterprise/data-center-performance-testing-939694288.html,Data Center
+How are apps licensed for Jira Data Center?,"Data Center approved apps are available through the Atlassian Marketplace. These apps are purpose-built for Data Center environments; tested and verified to live up to Jira Data Center's standards for performance, scalability, and reliability. These apps also follow an annual subscription licensing model that matches Jira Data Center's user tiers. ",https://www.atlassian.com/licensing/data-center-approved-apps?_ga=2.35600166.643220478.1543792650-374112984.1512353392#datacenterapprovedapps-12,Data Center
+"
+When do new server license sales and quotes end?
+","As of February 2, 2021 PT, you can no longer purchase or request a quote for a new server product.",,Server
+"When will support for affected products and apps end?
+","Support for affected server products and apps will end on February 2, 2024 PT. After this date:
+
+You will not be able to renew your server support or maintenance.
+Atlassian and Marketplace Partners will no longer provide technical support for any issues, security updates, or bug fixes for critical vulnerabilities.",,Server
+Can I continue to receive Priority Support while on server?,"Yes, you can renew Priority Support up until the server end of support date on February 2, 2024 PT.",,Server
+"Can I refund my recent server purchase and choose cloud?
+","Yes, you can request a refund or exchange of your server license up to 30 days after the original date of purchase. After the 30-day period, exchanges or refunds will not be available.",,Server
+"Will my automated renewals still work?
+","You can continue to use the automatic renewal function to renew your server license software maintenance annually until support ends on February 2, 2024 PT. Automated renewals will be prorated to match this date.",,
